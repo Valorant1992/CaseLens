@@ -1,0 +1,121 @@
+[
+  {
+    "note_id": "NTE_001",
+    "case_id": "CASE_001",
+    "author": "analyst_sarah",
+    "timestamp": "2025-02-28T14:30:00Z",
+    "note_text": "Reviewed TXN_0047: wire of $450,000 from ACC_005 to CP_017 (Cayman Offshore Fund, DE bank, risk_flag=true). Customer CUST_005 holds confirmed PEP status (HIT_001, Dow Jones Watchlist, match score 0.95) and confirmed adverse-media flag (HIT_002, match score 0.88). No source-of-wealth documentation on file. A second alert ALRT_015 has now been associated (TXN_0057: $95,000 wire to CP_010, Belize). Combined outflow of $545,000 to two high-risk offshore jurisdictions within 13 days with no commercial rationale. Customer has not responded to documentation request within 48-hour window. Case escalated to L2 for EDD and potential SAR assessment."
+  },
+  {
+    "note_id": "NTE_002",
+    "case_id": "CASE_002",
+    "author": "analyst_mark",
+    "timestamp": "2025-04-11T11:00:00Z",
+    "note_text": "Analysis of TXN_0064 (incoming $200,000 SWIFT from CP_003, Zurich Private Bank) and TXN_0065 (outgoing $198,500 SWIFT to CP_012, Panama Shell Corp) for customer CUST_010 (ACC_010). Time between receipt and onward wire: 1 hour 45 minutes. Pass-through ratio: 99.3%. No commercial relationship documented for either CP_003 or CP_012. Beneficial ownership search on CP_012 returned no verifiable beneficial owner; entity registered in Panama with no operational footprint. Customer CUST_010 has not provided any explanation for the Panama wire when contacted. Historic customer risk profile (risk_score=60, band=HIGH) indicates prior international wire activity, but never of this magnitude or velocity. Pattern is consistent with classic placement-to-layering sequence. Recommend immediate SAR filing under FinCEN/FINTRAC guidance."
+  },
+  {
+    "note_id": "NTE_003",
+    "case_id": "CASE_002",
+    "author": "manager_helen",
+    "timestamp": "2025-04-12T15:45:00Z",
+    "note_text": "Reviewed analyst Mark's assessment and supporting evidence for TXN_0064 and TXN_0065. Confirmed: (1) no legitimate business purpose, (2) opaque beneficial ownership for both counterparties CP_003 and CP_012, (3) 99.3% pass-through ratio within 2 hours is far outside risk appetite for this customer segment, (4) customer provided no response to information request. SAR filing approved. Filing will reference: CASE_002, ALRT_003, TXN_0064, TXN_0065, customer CUST_010 (DOB 1980-07-28, US national, Private Equity Partner). SAR reference to be logged with MLRO within 24 hours."
+  },
+  {
+    "note_id": "NTE_004",
+    "case_id": "CASE_003",
+    "author": "analyst_sarah",
+    "timestamp": "2025-01-19T10:00:00Z",
+    "note_text": "Customer CUST_007 (Edward Wilson, occupation: Unemployed, residence: MX) made five cash deposits totalling EUR 49,350 within a 7-day period via transactions TXN_0012 (EUR 9,900 ATM), TXN_0013 (EUR 9,800 branch), TXN_0015 (EUR 9,900 ATM), TXN_0019 (EUR 9,850 branch), TXN_0022 (EUR 9,900 branch). Each deposit was deliberately structured below the EUR 10,000 CTR reporting threshold. Customer's declared occupation (Unemployed) and expected monthly turnover (EUR 5,000) are wholly inconsistent with this cash volume. No plausible source of funds has been identified. No prior cash activity of this scale exists in account history for ACC_007. Pattern is consistent with structuring to avoid currency transaction reporting (CTR). SAR recommended under 31 USC 5318(g)."
+  },
+  {
+    "note_id": "NTE_005",
+    "case_id": "CASE_004",
+    "author": "analyst_mark",
+    "timestamp": "2025-02-23T08:45:00Z",
+    "note_text": "Reviewed TXN_0054: incoming SWIFT wire of GBP 42,000 from CP_019 (New York Legal Services, BZ) for customer CUST_003 (Alice Johnson, nurse, CA). Customer provided an executed property sale settlement agreement and a confirmation letter from solicitor firm confirming the wire as escrow release of inherited property sale proceeds. Source of funds verified as a legitimate real-estate transaction involving an inherited property in Belize. Documentation cross-checked with external land registry record. Alert ALRT_006 closed as false positive. No further action required."
+  },
+  {
+    "note_id": "NTE_006",
+    "case_id": "CASE_005",
+    "author": "analyst_sarah",
+    "timestamp": "2025-04-01T14:00:00Z",
+    "note_text": "CUST_018 (Vanguard Real Estate Holdings, CN, sanctions_flag=true): Beneficial-ownership registry extract confirms 52% controlling interest held by Apex Import Export Holdings Ltd, which is listed on the OFAC SDN List (HIT_004, source: OFAC SDN List, match_score=1.0). TXN_0063 (GBP 15,000 wire to CP_001 in Belize) represents a potential breach of OFAC regulations. Accounts ACC_018 and ACC_029 immediately restricted pending sanctions compliance review. All outgoing transactions blocked. Compliance officer and legal team notified per sanctions escalation policy SCP-004. Case escalated to L2 Sanctions Compliance Desk."
+  },
+  {
+    "note_id": "NTE_007",
+    "case_id": "CASE_006",
+    "author": "analyst_mark",
+    "timestamp": "2025-05-13T11:00:00Z",
+    "note_text": "Reviewed TXN_0069: GBP 75,000 SWIFT wire from ACC_017 (CUST_017, Nova Tech Ventures Ltd) to CP_008 (Seychelles Nominee Ltd, risk_flag=true). Customer provided commercial invoice for industrial machinery parts (Batch 29), bill of lading (BL/2025/0512-B29), and customs export declaration verified by the trade-finance team against the Singapore-based importer's import licence. All documentation found to be consistent and genuine. No evidence of shell entity or beneficial ownership concerns for CP_008 in this specific transaction context. Alert ALRT_017 closed as false positive."
+  },
+  {
+    "note_id": "NTE_100",
+    "case_id": "CASE_007",
+    "author": "SYSTEM_BOT",
+    "timestamp": "2025-03-05T13:45:00Z",
+    "note_text": "Rule R-078 (Verified Sale of Asset) applied. Customer CUST_002 provided bill-of-sale documentation via secure messaging portal confirming private vehicle sale. Total cash deposits (TXN_0058, TXN_0059, TXN_0060) of EUR 12,500 match vehicle sale price within tolerance. No structuring pattern detected. Alert ALRT_002 auto-cleared."
+  },
+  {
+    "note_id": "NTE_101",
+    "case_id": "CASE_008",
+    "author": "SYSTEM_BOT",
+    "timestamp": "2025-05-02T16:15:00Z",
+    "note_text": "Rule R-067 (Verified Estate Distribution) applied. Customer CUST_015 provided probate court documentation and solicitor letter confirming TXN_0068 ($85,000 wire from CP_027) as a distribution from a mature estate trust. Account dormancy period of 180 days explained by trust settlement timeline. No indicators of illicit activity. Alert ALRT_005 auto-cleared."
+  },
+  {
+    "note_id": "NTE_102",
+    "case_id": "CASE_009",
+    "author": "SYSTEM_BOT",
+    "timestamp": "2025-03-10T14:05:00Z",
+    "note_text": "Rule R-112 (Retail Baseline Velocity) applied. All card transactions for CUST_001 (ACC_001) fall within established frequency and value bands for retail segment. Pattern matches typical e-commerce purchasing behaviour. Alert ALRT_008 auto-cleared. Case retained as closed audit record per policy AUD-003."
+  },
+  {
+    "note_id": "NTE_103",
+    "case_id": "CASE_010",
+    "author": "SYSTEM_BOT",
+    "timestamp": "2025-03-10T18:05:00Z",
+    "note_text": "Rule R-221 (Verified Trade Counterparty Exemption) applied. Trade-finance team verified import invoice AP-2098, customs declarations, and bill of lading for CUST_016 wire TXN_0061 (EUR 120,000 to CP_002). Belize counterparty CP_002 confirmed as registered supplier with 3-year documented relationship. Alert ALRT_009 auto-cleared."
+  },
+  {
+    "note_id": "NTE_104",
+    "case_id": "CASE_011",
+    "author": "SYSTEM_BOT",
+    "timestamp": "2025-05-25T16:05:00Z",
+    "note_text": "Rule R-089 (Pre-notified Travel Cash Exemption) applied. Customer CUST_006 submitted travel notice 5 days prior to ATM withdrawals (TXN_0070, TXN_0071, TXN_0072). ATM locations consistent with declared travel destination. Cumulative withdrawal amount within pre-approved travel cash limit. Alert ALRT_010 auto-cleared."
+  },
+  {
+    "note_id": "NTE_105",
+    "case_id": "CASE_012",
+    "author": "SYSTEM_BOT",
+    "timestamp": "2025-01-20T13:05:00Z",
+    "note_text": "Rule R-045 (Verified Third-Party Gift) applied. Customer CUST_011 provided a bank confirmation letter from originating institution confirming TXN_0024 (GBP 35,000) as tuition assistance from grandparents. Source of funds verified as savings account. Amount consistent with declared education costs. Alert ALRT_011 auto-cleared."
+  },
+  {
+    "note_id": "NTE_106",
+    "case_id": "CASE_013",
+    "author": "SYSTEM_BOT",
+    "timestamp": "2025-02-05T17:05:00Z",
+    "note_text": "Rule R-134 (Documented Cash-Intensive Event Exemption) applied. Customer CUST_012 provided event-organiser receipts and cash-intake reconciliation sheets for a two-day hobbyist collectibles fair. Total documented fair income: EUR 28,500. Deposits TXN_0036 (EUR 9,500 ATM), TXN_0037 (EUR 9,500 branch), TXN_0038 (EUR 9,500 branch) represent partial bank-ins consistent with the event schedule and venue cash-handling practice. Alert ALRT_012 auto-cleared."
+  },
+  {
+    "note_id": "NTE_107",
+    "case_id": "CASE_014",
+    "author": "SYSTEM_BOT",
+    "timestamp": "2025-01-04T12:05:00Z",
+    "note_text": "Rule R-055 (Seasonal Merchant Volume Variance) applied. Settlement volume spike of 40% for CUST_019 (ACC_019) across TXN_0001, TXN_0002, TXN_0003 falls within pre-approved parameters for the declared Black Friday/seasonal promotional period. No anomalous counterparties or cross-border indicators detected. Alert ALRT_013 auto-cleared."
+  },
+  {
+    "note_id": "NTE_108",
+    "case_id": "CASE_015",
+    "author": "SYSTEM_BOT",
+    "timestamp": "2025-03-18T16:05:00Z",
+    "note_text": "Rule R-067 (Branch-Verified Reactivation) applied. Customer CUST_004 attended branch in person for TXN_0062 ($10,000 cash withdrawal). Government-issued ID verified by branch staff; purpose confirmed as home renovation contractor payment. Branch verification checklist completed. Account dormancy of 210 days noted but explained by customer relocation. Alert ALRT_014 auto-cleared."
+  },
+  {
+    "note_id": "NTE_109",
+    "case_id": "CASE_016",
+    "author": "SYSTEM_BOT",
+    "timestamp": "2025-04-16T17:35:00Z",
+    "note_text": "Rule R-301 (High Pass-Through Ratio) triggered automatic L2 escalation. TXN_0066 ($150,000 inbound from CP_011, Emirates Trading LLC) and TXN_0067 ($149,000 outbound to CP_013, Munich Machining GmbH) within 48 hours produce a 99.3% pass-through ratio exceeding the L1 clearance threshold of 90%. Trade documentation submitted by CUST_020 but independent verification of counterparty beneficial ownership is pending. Case escalated for enhanced due diligence."
+  }
+]

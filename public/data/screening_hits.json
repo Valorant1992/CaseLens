@@ -1,0 +1,47 @@
+[
+  {
+    "hit_id": "HIT_001",
+    "customer_id": "CUST_005",
+    "hit_type": "PEP",
+    "source": "Dow Jones Watchlist",
+    "matched_name": "Charlie Taylor (Senior Advisor, Ministry of Oil)",
+    "match_score": 0.95,
+    "status": "CONFIRMED"
+  },
+  {
+    "hit_id": "HIT_002",
+    "customer_id": "CUST_005",
+    "hit_type": "ADVERSE_MEDIA",
+    "source": "World Compliance News",
+    "matched_name": "Charlie Taylor",
+    "match_score": 0.88,
+    "status": "CONFIRMED"
+  },
+  {
+    "hit_id": "HIT_003",
+    "customer_id": "CUST_012",
+    "hit_type": "PEP",
+    "source": "WorldCompliance",
+    "matched_name": "Julia White (Attaché to Ministry of Culture)",
+    "match_score": 0.92,
+    "status": "FALSE_POSITIVE"
+  },
+  {
+    "hit_id": "HIT_004",
+    "customer_id": "CUST_018",
+    "hit_type": "SANCTION",
+    "source": "OFAC SDN List",
+    "matched_name": "Apex Import Export Holdings Ltd",
+    "match_score": 1.0,
+    "status": "CONFIRMED"
+  },
+  {
+    "hit_id": "HIT_005",
+    "customer_id": "CUST_005",
+    "hit_type": "ADVERSE_MEDIA",
+    "source": "OCCRP Organized Crime and Corruption Reporting Project",
+    "matched_name": "Charlie Taylor",
+    "match_score": 0.85,
+    "status": "CONFIRMED"
+  }
+]

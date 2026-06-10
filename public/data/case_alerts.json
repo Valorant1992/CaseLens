@@ -1,0 +1,70 @@
+[
+  {
+    "case_id": "CASE_001",
+    "alert_id": "ALRT_001"
+  },
+  {
+    "case_id": "CASE_001",
+    "alert_id": "ALRT_015"
+  },
+  {
+    "case_id": "CASE_002",
+    "alert_id": "ALRT_003"
+  },
+  {
+    "case_id": "CASE_003",
+    "alert_id": "ALRT_004"
+  },
+  {
+    "case_id": "CASE_004",
+    "alert_id": "ALRT_006"
+  },
+  {
+    "case_id": "CASE_005",
+    "alert_id": "ALRT_007"
+  },
+  {
+    "case_id": "CASE_006",
+    "alert_id": "ALRT_017"
+  },
+  {
+    "case_id": "CASE_007",
+    "alert_id": "ALRT_002"
+  },
+  {
+    "case_id": "CASE_008",
+    "alert_id": "ALRT_005"
+  },
+  {
+    "case_id": "CASE_009",
+    "alert_id": "ALRT_008"
+  },
+  {
+    "case_id": "CASE_010",
+    "alert_id": "ALRT_009"
+  },
+  {
+    "case_id": "CASE_011",
+    "alert_id": "ALRT_010"
+  },
+  {
+    "case_id": "CASE_012",
+    "alert_id": "ALRT_011"
+  },
+  {
+    "case_id": "CASE_013",
+    "alert_id": "ALRT_012"
+  },
+  {
+    "case_id": "CASE_014",
+    "alert_id": "ALRT_013"
+  },
+  {
+    "case_id": "CASE_015",
+    "alert_id": "ALRT_014"
+  },
+  {
+    "case_id": "CASE_016",
+    "alert_id": "ALRT_016"
+  }
+]

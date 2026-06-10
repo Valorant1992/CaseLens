@@ -1,0 +1,302 @@
+[
+  {
+    "account_id": "ACC_001",
+    "customer_id": "CUST_001",
+    "account_number_masked": "******1001",
+    "account_type": "SAVINGS",
+    "currency": "GBP",
+    "opened_date": "2024-03-15",
+    "status": "ACTIVE",
+    "branch_country": "GB"
+  },
+  {
+    "account_id": "ACC_002",
+    "customer_id": "CUST_002",
+    "account_number_masked": "******1002",
+    "account_type": "CHECKING",
+    "currency": "EUR",
+    "opened_date": "2023-09-30",
+    "status": "ACTIVE",
+    "branch_country": "DE"
+  },
+  {
+    "account_id": "ACC_003",
+    "customer_id": "CUST_003",
+    "account_number_masked": "******1003",
+    "account_type": "SAVINGS",
+    "currency": "GBP",
+    "opened_date": "2023-11-22",
+    "status": "ACTIVE",
+    "branch_country": "CA"
+  },
+  {
+    "account_id": "ACC_004",
+    "customer_id": "CUST_004",
+    "account_number_masked": "******1004",
+    "account_type": "CHECKING",
+    "currency": "USD",
+    "opened_date": "2024-03-25",
+    "status": "ACTIVE",
+    "branch_country": "KY"
+  },
+  {
+    "account_id": "ACC_005",
+    "customer_id": "CUST_005",
+    "account_number_masked": "******1005",
+    "account_type": "SAVINGS",
+    "currency": "GBP",
+    "opened_date": "2023-05-02",
+    "status": "ACTIVE",
+    "branch_country": "SG"
+  },
+  {
+    "account_id": "ACC_006",
+    "customer_id": "CUST_006",
+    "account_number_masked": "******1006",
+    "account_type": "CHECKING",
+    "currency": "EUR",
+    "opened_date": "2024-06-07",
+    "status": "ACTIVE",
+    "branch_country": "CH"
+  },
+  {
+    "account_id": "ACC_007",
+    "customer_id": "CUST_007",
+    "account_number_masked": "******1007",
+    "account_type": "SAVINGS",
+    "currency": "GBP",
+    "opened_date": "2023-11-27",
+    "status": "ACTIVE",
+    "branch_country": "MX"
+  },
+  {
+    "account_id": "ACC_008",
+    "customer_id": "CUST_008",
+    "account_number_masked": "******1008",
+    "account_type": "CHECKING",
+    "currency": "GBP",
+    "opened_date": "2023-02-06",
+    "status": "ACTIVE",
+    "branch_country": "CN"
+  },
+  {
+    "account_id": "ACC_009",
+    "customer_id": "CUST_009",
+    "account_number_masked": "******1009",
+    "account_type": "SAVINGS",
+    "currency": "GBP",
+    "opened_date": "2024-06-10",
+    "status": "ACTIVE",
+    "branch_country": "AE"
+  },
+  {
+    "account_id": "ACC_010",
+    "customer_id": "CUST_010",
+    "account_number_masked": "******1010",
+    "account_type": "CHECKING",
+    "currency": "USD",
+    "opened_date": "2023-05-05",
+    "status": "ACTIVE",
+    "branch_country": "US"
+  },
+  {
+    "account_id": "ACC_011",
+    "customer_id": "CUST_011",
+    "account_number_masked": "******1011",
+    "account_type": "SAVINGS",
+    "currency": "GBP",
+    "opened_date": "2023-04-05",
+    "status": "ACTIVE",
+    "branch_country": "GB"
+  },
+  {
+    "account_id": "ACC_012",
+    "customer_id": "CUST_012",
+    "account_number_masked": "******1012",
+    "account_type": "CHECKING",
+    "currency": "EUR",
+    "opened_date": "2023-09-27",
+    "status": "ACTIVE",
+    "branch_country": "DE"
+  },
+  {
+    "account_id": "ACC_013",
+    "customer_id": "CUST_013",
+    "account_number_masked": "******1013",
+    "account_type": "SAVINGS",
+    "currency": "GBP",
+    "opened_date": "2024-01-26",
+    "status": "ACTIVE",
+    "branch_country": "CA"
+  },
+  {
+    "account_id": "ACC_014",
+    "customer_id": "CUST_014",
+    "account_number_masked": "******1014",
+    "account_type": "CHECKING",
+    "currency": "USD",
+    "opened_date": "2023-05-02",
+    "status": "ACTIVE",
+    "branch_country": "KY"
+  },
+  {
+    "account_id": "ACC_015",
+    "customer_id": "CUST_015",
+    "account_number_masked": "******1015",
+    "account_type": "SAVINGS",
+    "currency": "GBP",
+    "opened_date": "2023-09-27",
+    "status": "ACTIVE",
+    "branch_country": "SG"
+  },
+  {
+    "account_id": "ACC_016",
+    "customer_id": "CUST_016",
+    "account_number_masked": "******1016",
+    "account_type": "BUSINESS_CHECKING",
+    "currency": "EUR",
+    "opened_date": "2023-11-30",
+    "status": "ACTIVE",
+    "branch_country": "CH"
+  },
+  {
+    "account_id": "ACC_017",
+    "customer_id": "CUST_017",
+    "account_number_masked": "******1017",
+    "account_type": "BUSINESS_CHECKING",
+    "currency": "GBP",
+    "opened_date": "2024-03-25",
+    "status": "ACTIVE",
+    "branch_country": "MX"
+  },
+  {
+    "account_id": "ACC_018",
+    "customer_id": "CUST_018",
+    "account_number_masked": "******1018",
+    "account_type": "BUSINESS_CHECKING",
+    "currency": "GBP",
+    "opened_date": "2023-06-14",
+    "status": "ACTIVE",
+    "branch_country": "CN"
+  },
+  {
+    "account_id": "ACC_019",
+    "customer_id": "CUST_019",
+    "account_number_masked": "******1019",
+    "account_type": "CORP_TREASURY",
+    "currency": "GBP",
+    "opened_date": "2023-07-06",
+    "status": "ACTIVE",
+    "branch_country": "AE"
+  },
+  {
+    "account_id": "ACC_020",
+    "customer_id": "CUST_020",
+    "account_number_masked": "******1020",
+    "account_type": "CORP_TREASURY",
+    "currency": "USD",
+    "opened_date": "2023-10-11",
+    "status": "ACTIVE",
+    "branch_country": "US"
+  },
+  {
+    "account_id": "ACC_021",
+    "customer_id": "CUST_002",
+    "account_number_masked": "******1021",
+    "account_type": "SAVINGS",
+    "currency": "EUR",
+    "opened_date": "2023-09-30",
+    "status": "ACTIVE",
+    "branch_country": "DE"
+  },
+  {
+    "account_id": "ACC_022",
+    "customer_id": "CUST_004",
+    "account_number_masked": "******1022",
+    "account_type": "CHECKING",
+    "currency": "USD",
+    "opened_date": "2024-03-25",
+    "status": "ACTIVE",
+    "branch_country": "KY"
+  },
+  {
+    "account_id": "ACC_023",
+    "customer_id": "CUST_006",
+    "account_number_masked": "******1023",
+    "account_type": "SAVINGS",
+    "currency": "EUR",
+    "opened_date": "2024-06-07",
+    "status": "ACTIVE",
+    "branch_country": "CH"
+  },
+  {
+    "account_id": "ACC_024",
+    "customer_id": "CUST_008",
+    "account_number_masked": "******1024",
+    "account_type": "CHECKING",
+    "currency": "GBP",
+    "opened_date": "2023-02-06",
+    "status": "ACTIVE",
+    "branch_country": "CN"
+  },
+  {
+    "account_id": "ACC_025",
+    "customer_id": "CUST_010",
+    "account_number_masked": "******1025",
+    "account_type": "SAVINGS",
+    "currency": "USD",
+    "opened_date": "2023-05-05",
+    "status": "ACTIVE",
+    "branch_country": "US"
+  },
+  {
+    "account_id": "ACC_026",
+    "customer_id": "CUST_012",
+    "account_number_masked": "******1026",
+    "account_type": "CHECKING",
+    "currency": "EUR",
+    "opened_date": "2023-09-27",
+    "status": "ACTIVE",
+    "branch_country": "DE"
+  },
+  {
+    "account_id": "ACC_027",
+    "customer_id": "CUST_014",
+    "account_number_masked": "******1027",
+    "account_type": "SAVINGS",
+    "currency": "USD",
+    "opened_date": "2023-05-02",
+    "status": "ACTIVE",
+    "branch_country": "KY"
+  },
+  {
+    "account_id": "ACC_028",
+    "customer_id": "CUST_016",
+    "account_number_masked": "******1028",
+    "account_type": "BUSINESS_CHECKING",
+    "currency": "EUR",
+    "opened_date": "2023-11-30",
+    "status": "ACTIVE",
+    "branch_country": "CH"
+  },
+  {
+    "account_id": "ACC_029",
+    "customer_id": "CUST_018",
+    "account_number_masked": "******1029",
+    "account_type": "BUSINESS_CHECKING",
+    "currency": "GBP",
+    "opened_date": "2023-06-14",
+    "status": "ACTIVE",
+    "branch_country": "CN"
+  },
+  {
+    "account_id": "ACC_030",
+    "customer_id": "CUST_020",
+    "account_number_masked": "******1030",
+    "account_type": "CORP_TREASURY",
+    "currency": "USD",
+    "opened_date": "2023-10-11",
+    "status": "ACTIVE",
+    "branch_country": "US"
+  }
+]

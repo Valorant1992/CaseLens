@@ -1,0 +1,87 @@
+/* =========================================
+   BRETTON AML – Design Tokens
+   ========================================= */
+:root {
+  /* Typography */
+  --font: 'Inter', system-ui, sans-serif;
+  --text-xs:   0.72rem;
+  --text-sm:   0.83rem;
+  --text-base: 0.925rem;
+  --text-md:   1rem;
+  --text-lg:   1.15rem;
+  --text-xl:   1.35rem;
+  --text-2xl:  1.65rem;
+  --fw-normal: 400;
+  --fw-medium: 500;
+  --fw-semi:   600;
+  --fw-bold:   700;
+
+  /* Radii */
+  --radius-sm: 4px;
+  --radius:    6px;
+  --radius-lg: 10px;
+
+  /* Transitions */
+  --ease: 0.18s ease;
+  --ease-md: 0.28s ease;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(0,0,0,.07);
+  --shadow:    0 2px 8px rgba(0,0,0,.1);
+  --shadow-lg: 0 6px 24px rgba(0,0,0,.13);
+
+  /* Spacing scale */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 20px;
+  --sp-6: 24px;
+  --sp-8: 32px;
+
+  /* ---- Light theme ---- */
+  --bg-app:       hsl(210, 22%, 96%);
+  --bg-surface:   hsl(0, 0%, 100%);
+  --bg-sidebar:   hsl(210, 25%, 14%);
+  --bg-sidebar-hover: hsl(210, 25%, 22%);
+  --bg-sidebar-active: hsl(210, 70%, 45%);
+  --bg-topbar:    hsl(210, 25%, 14%);
+  --bg-subtle:    hsl(210, 18%, 97%);
+  --bg-row-alt:   hsl(210, 15%, 97%);
+  --bg-row-hover: hsl(210, 30%, 94%);
+
+  --text-primary:   hsl(210, 20%, 10%);
+  --text-secondary: hsl(210, 12%, 42%);
+  --text-muted:     hsl(210, 10%, 60%);
+  --text-inverse:   hsl(0, 0%, 100%);
+
+  --border:       hsl(210, 15%, 88%);
+  --border-strong:hsl(210, 12%, 78%);
+
+  /* Semantic colours */
+  --clr-auto:    hsl(142, 42%, 36%);
+  --clr-auto-bg: hsl(142, 40%, 95%);
+  --clr-auto-border: hsl(142, 35%, 80%);
+
+  --clr-esc:    hsl(38, 88%, 42%);
+  --clr-esc-bg: hsl(44, 90%, 95%);
+  --clr-esc-border: hsl(42, 80%, 78%);
+
+  --clr-sar:    hsl(4, 72%, 45%);
+  --clr-sar-bg: hsl(4, 70%, 96%);
+  --clr-sar-border: hsl(4, 60%, 82%);
+
+  --clr-critical: hsl(0, 75%, 48%);
+  --clr-high:     hsl(22, 85%, 50%);
+  --clr-medium:   hsl(42, 90%, 44%);
+  --clr-low:      hsl(142, 42%, 36%);
+
+  --clr-accent:   hsl(210, 70%, 48%);
+  --clr-accent-bg:hsl(210, 70%, 96%);
+
+  /* KPI cards */
+  --kpi-total-bg:   hsl(210, 30%, 96%);
+  --kpi-clear-bg:   hsl(142, 40%, 95%);
+  --kpi-esc-bg:     hsl(44, 90%, 95%);
+  --kpi-sar-bg:     hsl(4, 70%, 96%);
+}

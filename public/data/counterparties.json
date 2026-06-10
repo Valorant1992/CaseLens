@@ -1,0 +1,242 @@
+[
+  {
+    "counterparty_id": "CP_001",
+    "name": "Alpha Holdings",
+    "country": "BZ",
+    "bank_name": "Alpha InterBank",
+    "counterparty_type": "CORPORATE",
+    "risk_flag": false
+  },
+  {
+    "counterparty_id": "CP_002",
+    "name": "Belize Trust Corp",
+    "country": "CH",
+    "bank_name": "Belize InterBank",
+    "counterparty_type": "CORPORATE",
+    "risk_flag": true
+  },
+  {
+    "counterparty_id": "CP_003",
+    "name": "Zurich Private Bank",
+    "country": "US",
+    "bank_name": "Zurich InterBank",
+    "counterparty_type": "CORPORATE",
+    "risk_flag": false
+  },
+  {
+    "counterparty_id": "CP_004",
+    "name": "Fast Pay International",
+    "country": "AE",
+    "bank_name": "Fast InterBank",
+    "counterparty_type": "CORPORATE",
+    "risk_flag": false
+  },
+  {
+    "counterparty_id": "CP_005",
+    "name": "Global Trade Logistics",
+    "country": "PA",
+    "bank_name": "Global InterBank",
+    "counterparty_type": "CORPORATE",
+    "risk_flag": false
+  },
+  {
+    "counterparty_id": "CP_006",
+    "name": "High Risk Casino Group",
+    "country": "SG",
+    "bank_name": "High InterBank",
+    "counterparty_type": "CORPORATE",
+    "risk_flag": true
+  },
+  {
+    "counterparty_id": "CP_007",
+    "name": "Mega Retail Wholesale",
+    "country": "GB",
+    "bank_name": "Mega InterBank",
+    "counterparty_type": "CORPORATE",
+    "risk_flag": false
+  },
+  {
+    "counterparty_id": "CP_008",
+    "name": "Seychelles Nominee Ltd",
+    "country": "DE",
+    "bank_name": "Seychelles InterBank",
+    "counterparty_type": "CORPORATE",
+    "risk_flag": true
+  },
+  {
+    "counterparty_id": "CP_009",
+    "name": "John Watson Consulting",
+    "country": "KY",
+    "bank_name": "John InterBank",
+    "counterparty_type": "CORPORATE",
+    "risk_flag": false
+  },
+  {
+    "counterparty_id": "CP_010",
+    "name": "Mary Capital Partners",
+    "country": "BZ",
+    "bank_name": "Mary InterBank",
+    "counterparty_type": "CORPORATE",
+    "risk_flag": false
+  },
+  {
+    "counterparty_id": "CP_011",
+    "name": "Emirates Trading LLC",
+    "country": "CH",
+    "bank_name": "Emirates InterBank",
+    "counterparty_type": "CORPORATE",
+    "risk_flag": false
+  },
+  {
+    "counterparty_id": "CP_012",
+    "name": "Panama Shell Corp",
+    "country": "US",
+    "bank_name": "Panama InterBank",
+    "counterparty_type": "CORPORATE",
+    "risk_flag": true
+  },
+  {
+    "counterparty_id": "CP_013",
+    "name": "Munich Machining GmbH",
+    "country": "AE",
+    "bank_name": "Munich InterBank",
+    "counterparty_type": "CORPORATE",
+    "risk_flag": false
+  },
+  {
+    "counterparty_id": "CP_014",
+    "name": "London Financial Clearing",
+    "country": "PA",
+    "bank_name": "London InterBank",
+    "counterparty_type": "CORPORATE",
+    "risk_flag": false
+  },
+  {
+    "counterparty_id": "CP_015",
+    "name": "Tokyo Electronics",
+    "country": "SG",
+    "bank_name": "Tokyo InterBank",
+    "counterparty_type": "CORPORATE",
+    "risk_flag": false
+  },
+  {
+    "counterparty_id": "CP_016",
+    "name": "Crypto Exchange Services",
+    "country": "GB",
+    "bank_name": "Crypto InterBank",
+    "counterparty_type": "CORPORATE",
+    "risk_flag": false
+  },
+  {
+    "counterparty_id": "CP_017",
+    "name": "Cayman Offshore Fund",
+    "country": "DE",
+    "bank_name": "Cayman InterBank",
+    "counterparty_type": "CORPORATE",
+    "risk_flag": true
+  },
+  {
+    "counterparty_id": "CP_018",
+    "name": "Dublin Import Co",
+    "country": "KY",
+    "bank_name": "Dublin InterBank",
+    "counterparty_type": "CORPORATE",
+    "risk_flag": false
+  },
+  {
+    "counterparty_id": "CP_019",
+    "name": "New York Legal Services",
+    "country": "BZ",
+    "bank_name": "New InterBank",
+    "counterparty_type": "CORPORATE",
+    "risk_flag": false
+  },
+  {
+    "counterparty_id": "CP_020",
+    "name": "Singapore Tech Dist",
+    "country": "CH",
+    "bank_name": "Singapore InterBank",
+    "counterparty_type": "CORPORATE",
+    "risk_flag": false
+  },
+  {
+    "counterparty_id": "CP_021",
+    "name": "Western Remittance Services",
+    "country": "US",
+    "bank_name": "Western InterBank",
+    "counterparty_type": "CORPORATE",
+    "risk_flag": false
+  },
+  {
+    "counterparty_id": "CP_022",
+    "name": "East Asia Trading",
+    "country": "AE",
+    "bank_name": "East InterBank",
+    "counterparty_type": "CORPORATE",
+    "risk_flag": false
+  },
+  {
+    "counterparty_id": "CP_023",
+    "name": "Global Wire Clearing",
+    "country": "PA",
+    "bank_name": "Global InterBank",
+    "counterparty_type": "INDIVIDUAL",
+    "risk_flag": false
+  },
+  {
+    "counterparty_id": "CP_024",
+    "name": "Express Remitters LLC",
+    "country": "SG",
+    "bank_name": "Express InterBank",
+    "counterparty_type": "INDIVIDUAL",
+    "risk_flag": false
+  },
+  {
+    "counterparty_id": "CP_025",
+    "name": "Standard Commerce Bank",
+    "country": "GB",
+    "bank_name": "Standard InterBank",
+    "counterparty_type": "INDIVIDUAL",
+    "risk_flag": false
+  },
+  {
+    "counterparty_id": "CP_026",
+    "name": "Pacifica Marine Trade",
+    "country": "DE",
+    "bank_name": "Pacifica InterBank",
+    "counterparty_type": "INDIVIDUAL",
+    "risk_flag": false
+  },
+  {
+    "counterparty_id": "CP_027",
+    "name": "Bermuda Asset Mgmt",
+    "country": "KY",
+    "bank_name": "Bermuda InterBank",
+    "counterparty_type": "INDIVIDUAL",
+    "risk_flag": false
+  },
+  {
+    "counterparty_id": "CP_028",
+    "name": "Delaware Shell Services",
+    "country": "BZ",
+    "bank_name": "Delaware InterBank",
+    "counterparty_type": "INDIVIDUAL",
+    "risk_flag": true
+  },
+  {
+    "counterparty_id": "CP_029",
+    "name": "Euro Express Trade",
+    "country": "CH",
+    "bank_name": "Euro InterBank",
+    "counterparty_type": "INDIVIDUAL",
+    "risk_flag": false
+  },
+  {
+    "counterparty_id": "CP_030",
+    "name": "Lombard Odier Swiss nominee",
+    "country": "US",
+    "bank_name": "Lombard InterBank",
+    "counterparty_type": "INDIVIDUAL",
+    "risk_flag": false
+  }
+]

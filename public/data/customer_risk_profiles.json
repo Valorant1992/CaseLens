@@ -1,0 +1,332 @@
+[
+  {
+    "customer_id": "CUST_001",
+    "expected_monthly_turnover": 5000.0,
+    "expected_cash_activity": 2000.0,
+    "expected_geographies": [
+      "GB"
+    ],
+    "expected_products": [
+      "ACH",
+      "DEBIT",
+      "ATM"
+    ],
+    "customer_risk_score": 25,
+    "risk_band": "LOW",
+    "risk_rationale": "Low risk retail banking client."
+  },
+  {
+    "customer_id": "CUST_002",
+    "expected_monthly_turnover": 5000.0,
+    "expected_cash_activity": 2000.0,
+    "expected_geographies": [
+      "DE"
+    ],
+    "expected_products": [
+      "ACH",
+      "DEBIT",
+      "ATM"
+    ],
+    "customer_risk_score": 25,
+    "risk_band": "LOW",
+    "risk_rationale": "Low risk retail banking client."
+  },
+  {
+    "customer_id": "CUST_003",
+    "expected_monthly_turnover": 5000.0,
+    "expected_cash_activity": 2000.0,
+    "expected_geographies": [
+      "CA"
+    ],
+    "expected_products": [
+      "ACH",
+      "DEBIT",
+      "ATM"
+    ],
+    "customer_risk_score": 25,
+    "risk_band": "LOW",
+    "risk_rationale": "Low risk retail banking client."
+  },
+  {
+    "customer_id": "CUST_004",
+    "expected_monthly_turnover": 5000.0,
+    "expected_cash_activity": 2000.0,
+    "expected_geographies": [
+      "KY"
+    ],
+    "expected_products": [
+      "ACH",
+      "DEBIT",
+      "ATM"
+    ],
+    "customer_risk_score": 25,
+    "risk_band": "LOW",
+    "risk_rationale": "Low risk retail banking client."
+  },
+  {
+    "customer_id": "CUST_005",
+    "expected_monthly_turnover": 100000.0,
+    "expected_cash_activity": 5000.0,
+    "expected_geographies": [
+      "US",
+      "CH",
+      "KY",
+      "GB"
+    ],
+    "expected_products": [
+      "WIRE",
+      "INVESTMENTS"
+    ],
+    "customer_risk_score": 85,
+    "risk_band": "HIGH",
+    "risk_rationale": "PEP Status combined with high net worth wealth origin."
+  },
+  {
+    "customer_id": "CUST_006",
+    "expected_monthly_turnover": 5000.0,
+    "expected_cash_activity": 2000.0,
+    "expected_geographies": [
+      "CH"
+    ],
+    "expected_products": [
+      "ACH",
+      "DEBIT",
+      "ATM"
+    ],
+    "customer_risk_score": 25,
+    "risk_band": "LOW",
+    "risk_rationale": "Low risk retail banking client."
+  },
+  {
+    "customer_id": "CUST_007",
+    "expected_monthly_turnover": 5000.0,
+    "expected_cash_activity": 2000.0,
+    "expected_geographies": [
+      "MX"
+    ],
+    "expected_products": [
+      "ACH",
+      "DEBIT",
+      "ATM"
+    ],
+    "customer_risk_score": 25,
+    "risk_band": "LOW",
+    "risk_rationale": "Low risk retail banking client."
+  },
+  {
+    "customer_id": "CUST_008",
+    "expected_monthly_turnover": 5000.0,
+    "expected_cash_activity": 2000.0,
+    "expected_geographies": [
+      "CN"
+    ],
+    "expected_products": [
+      "ACH",
+      "DEBIT",
+      "ATM"
+    ],
+    "customer_risk_score": 25,
+    "risk_band": "LOW",
+    "risk_rationale": "Low risk retail banking client."
+  },
+  {
+    "customer_id": "CUST_009",
+    "expected_monthly_turnover": 5000.0,
+    "expected_cash_activity": 2000.0,
+    "expected_geographies": [
+      "AE"
+    ],
+    "expected_products": [
+      "ACH",
+      "DEBIT",
+      "ATM"
+    ],
+    "customer_risk_score": 25,
+    "risk_band": "LOW",
+    "risk_rationale": "Low risk retail banking client."
+  },
+  {
+    "customer_id": "CUST_010",
+    "expected_monthly_turnover": 100000.0,
+    "expected_cash_activity": 5000.0,
+    "expected_geographies": [
+      "US",
+      "CH",
+      "KY",
+      "GB"
+    ],
+    "expected_products": [
+      "WIRE",
+      "INVESTMENTS"
+    ],
+    "customer_risk_score": 60,
+    "risk_band": "HIGH",
+    "risk_rationale": "High wealth client with international wire activity."
+  },
+  {
+    "customer_id": "CUST_011",
+    "expected_monthly_turnover": 5000.0,
+    "expected_cash_activity": 2000.0,
+    "expected_geographies": [
+      "GB"
+    ],
+    "expected_products": [
+      "ACH",
+      "DEBIT",
+      "ATM"
+    ],
+    "customer_risk_score": 25,
+    "risk_band": "LOW",
+    "risk_rationale": "Low risk retail banking client."
+  },
+  {
+    "customer_id": "CUST_012",
+    "expected_monthly_turnover": 5000.0,
+    "expected_cash_activity": 2000.0,
+    "expected_geographies": [
+      "DE"
+    ],
+    "expected_products": [
+      "ACH",
+      "DEBIT",
+      "ATM"
+    ],
+    "customer_risk_score": 75,
+    "risk_band": "HIGH",
+    "risk_rationale": "PEP match on secondary registry list."
+  },
+  {
+    "customer_id": "CUST_013",
+    "expected_monthly_turnover": 5000.0,
+    "expected_cash_activity": 2000.0,
+    "expected_geographies": [
+      "CA"
+    ],
+    "expected_products": [
+      "ACH",
+      "DEBIT",
+      "ATM"
+    ],
+    "customer_risk_score": 25,
+    "risk_band": "LOW",
+    "risk_rationale": "Low risk retail banking client."
+  },
+  {
+    "customer_id": "CUST_014",
+    "expected_monthly_turnover": 5000.0,
+    "expected_cash_activity": 2000.0,
+    "expected_geographies": [
+      "KY"
+    ],
+    "expected_products": [
+      "ACH",
+      "DEBIT",
+      "ATM"
+    ],
+    "customer_risk_score": 25,
+    "risk_band": "LOW",
+    "risk_rationale": "Low risk retail banking client."
+  },
+  {
+    "customer_id": "CUST_015",
+    "expected_monthly_turnover": 100000.0,
+    "expected_cash_activity": 5000.0,
+    "expected_geographies": [
+      "US",
+      "CH",
+      "KY",
+      "GB"
+    ],
+    "expected_products": [
+      "WIRE",
+      "INVESTMENTS"
+    ],
+    "customer_risk_score": 60,
+    "risk_band": "HIGH",
+    "risk_rationale": "High wealth client with international wire activity."
+  },
+  {
+    "customer_id": "CUST_016",
+    "expected_monthly_turnover": 80000.0,
+    "expected_cash_activity": 10000.0,
+    "expected_geographies": [
+      "CH"
+    ],
+    "expected_products": [
+      "WIRE",
+      "ACH",
+      "CASH"
+    ],
+    "customer_risk_score": 45,
+    "risk_band": "MEDIUM",
+    "risk_rationale": "Local business operation with moderate cash receipts."
+  },
+  {
+    "customer_id": "CUST_017",
+    "expected_monthly_turnover": 80000.0,
+    "expected_cash_activity": 10000.0,
+    "expected_geographies": [
+      "MX"
+    ],
+    "expected_products": [
+      "WIRE",
+      "ACH",
+      "CASH"
+    ],
+    "customer_risk_score": 45,
+    "risk_band": "MEDIUM",
+    "risk_rationale": "Local business operation with moderate cash receipts."
+  },
+  {
+    "customer_id": "CUST_018",
+    "expected_monthly_turnover": 80000.0,
+    "expected_cash_activity": 10000.0,
+    "expected_geographies": [
+      "CN"
+    ],
+    "expected_products": [
+      "WIRE",
+      "ACH",
+      "CASH"
+    ],
+    "customer_risk_score": 45,
+    "risk_band": "MEDIUM",
+    "risk_rationale": "Local business operation with moderate cash receipts."
+  },
+  {
+    "customer_id": "CUST_019",
+    "expected_monthly_turnover": 500000.0,
+    "expected_cash_activity": 0.0,
+    "expected_geographies": [
+      "US",
+      "DE",
+      "GB",
+      "CN"
+    ],
+    "expected_products": [
+      "WIRE",
+      "CORP_TREASURY"
+    ],
+    "customer_risk_score": 55,
+    "risk_band": "MEDIUM",
+    "risk_rationale": "Standard large commercial operating account."
+  },
+  {
+    "customer_id": "CUST_020",
+    "expected_monthly_turnover": 500000.0,
+    "expected_cash_activity": 0.0,
+    "expected_geographies": [
+      "US",
+      "DE",
+      "GB",
+      "CN"
+    ],
+    "expected_products": [
+      "WIRE",
+      "CORP_TREASURY"
+    ],
+    "customer_risk_score": 55,
+    "risk_band": "MEDIUM",
+    "risk_rationale": "Standard large commercial operating account."
+  }
+]

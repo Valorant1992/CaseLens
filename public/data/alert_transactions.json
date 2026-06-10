@@ -1,0 +1,202 @@
+[
+  {
+    "alert_id": "ALRT_001",
+    "transaction_id": "TXN_0131",
+    "relationship_type": "TRIGGERING"
+  },
+  {
+    "alert_id": "ALRT_002",
+    "transaction_id": "TXN_0171",
+    "relationship_type": "SUPPORTING"
+  },
+  {
+    "alert_id": "ALRT_002",
+    "transaction_id": "TXN_0181",
+    "relationship_type": "SUPPORTING"
+  },
+  {
+    "alert_id": "ALRT_002",
+    "transaction_id": "TXN_0195",
+    "relationship_type": "TRIGGERING"
+  },
+  {
+    "alert_id": "ALRT_003",
+    "transaction_id": "TXN_0314",
+    "relationship_type": "SUPPORTING"
+  },
+  {
+    "alert_id": "ALRT_003",
+    "transaction_id": "TXN_0315",
+    "relationship_type": "TRIGGERING"
+  },
+  {
+    "alert_id": "ALRT_004",
+    "transaction_id": "TXN_0011",
+    "relationship_type": "SUPPORTING"
+  },
+  {
+    "alert_id": "ALRT_004",
+    "transaction_id": "TXN_0017",
+    "relationship_type": "SUPPORTING"
+  },
+  {
+    "alert_id": "ALRT_004",
+    "transaction_id": "TXN_0023",
+    "relationship_type": "SUPPORTING"
+  },
+  {
+    "alert_id": "ALRT_004",
+    "transaction_id": "TXN_0035",
+    "relationship_type": "SUPPORTING"
+  },
+  {
+    "alert_id": "ALRT_004",
+    "transaction_id": "TXN_0039",
+    "relationship_type": "TRIGGERING"
+  },
+  {
+    "alert_id": "ALRT_005",
+    "transaction_id": "TXN_0388",
+    "relationship_type": "TRIGGERING"
+  },
+  {
+    "alert_id": "ALRT_006",
+    "transaction_id": "TXN_0149",
+    "relationship_type": "TRIGGERING"
+  },
+  {
+    "alert_id": "ALRT_007",
+    "transaction_id": "TXN_0286",
+    "relationship_type": "TRIGGERING"
+  },
+  {
+    "alert_id": "ALRT_008",
+    "transaction_id": "TXN_0173",
+    "relationship_type": "SUPPORTING"
+  },
+  {
+    "alert_id": "ALRT_008",
+    "transaction_id": "TXN_0177",
+    "relationship_type": "SUPPORTING"
+  },
+  {
+    "alert_id": "ALRT_008",
+    "transaction_id": "TXN_0180",
+    "relationship_type": "SUPPORTING"
+  },
+  {
+    "alert_id": "ALRT_008",
+    "transaction_id": "TXN_0186",
+    "relationship_type": "SUPPORTING"
+  },
+  {
+    "alert_id": "ALRT_008",
+    "transaction_id": "TXN_0196",
+    "relationship_type": "SUPPORTING"
+  },
+  {
+    "alert_id": "ALRT_008",
+    "transaction_id": "TXN_0198",
+    "relationship_type": "SUPPORTING"
+  },
+  {
+    "alert_id": "ALRT_008",
+    "transaction_id": "TXN_0201",
+    "relationship_type": "SUPPORTING"
+  },
+  {
+    "alert_id": "ALRT_008",
+    "transaction_id": "TXN_0208",
+    "relationship_type": "SUPPORTING"
+  },
+  {
+    "alert_id": "ALRT_008",
+    "transaction_id": "TXN_0213",
+    "relationship_type": "SUPPORTING"
+  },
+  {
+    "alert_id": "ALRT_008",
+    "transaction_id": "TXN_0214",
+    "relationship_type": "TRIGGERING"
+  },
+  {
+    "alert_id": "ALRT_009",
+    "transaction_id": "TXN_0216",
+    "relationship_type": "TRIGGERING"
+  },
+  {
+    "alert_id": "ALRT_010",
+    "transaction_id": "TXN_0443",
+    "relationship_type": "SUPPORTING"
+  },
+  {
+    "alert_id": "ALRT_010",
+    "transaction_id": "TXN_0445",
+    "relationship_type": "SUPPORTING"
+  },
+  {
+    "alert_id": "ALRT_010",
+    "transaction_id": "TXN_0448",
+    "relationship_type": "TRIGGERING"
+  },
+  {
+    "alert_id": "ALRT_011",
+    "transaction_id": "TXN_0041",
+    "relationship_type": "TRIGGERING"
+  },
+  {
+    "alert_id": "ALRT_012",
+    "transaction_id": "TXN_0085",
+    "relationship_type": "SUPPORTING"
+  },
+  {
+    "alert_id": "ALRT_012",
+    "transaction_id": "TXN_0097",
+    "relationship_type": "SUPPORTING"
+  },
+  {
+    "alert_id": "ALRT_012",
+    "transaction_id": "TXN_0101",
+    "relationship_type": "TRIGGERING"
+  },
+  {
+    "alert_id": "ALRT_013",
+    "transaction_id": "TXN_0001",
+    "relationship_type": "SUPPORTING"
+  },
+  {
+    "alert_id": "ALRT_013",
+    "transaction_id": "TXN_0002",
+    "relationship_type": "SUPPORTING"
+  },
+  {
+    "alert_id": "ALRT_013",
+    "transaction_id": "TXN_0003",
+    "relationship_type": "TRIGGERING"
+  },
+  {
+    "alert_id": "ALRT_014",
+    "transaction_id": "TXN_0243",
+    "relationship_type": "TRIGGERING"
+  },
+  {
+    "alert_id": "ALRT_015",
+    "transaction_id": "TXN_0169",
+    "relationship_type": "TRIGGERING"
+  },
+  {
+    "alert_id": "ALRT_016",
+    "transaction_id": "TXN_0334",
+    "relationship_type": "SUPPORTING"
+  },
+  {
+    "alert_id": "ALRT_016",
+    "transaction_id": "TXN_0336",
+    "relationship_type": "TRIGGERING"
+  },
+  {
+    "alert_id": "ALRT_017",
+    "transaction_id": "TXN_0419",
+    "relationship_type": "TRIGGERING"
+  }
+]

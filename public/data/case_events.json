@@ -1,0 +1,338 @@
+[
+  {
+    "event_id": "EVT_001",
+    "case_id": "CASE_001",
+    "event_type": "CASE_CREATION",
+    "actor": "SYSTEM",
+    "timestamp": "2025-02-15T12:30:00Z",
+    "details": "Case created automatically from scenario alert ALRT_001: Large Foreign Wire Outflow. Customer CUST_005 is flagged PEP with confirmed adverse media. Wire of $450,000 to Cayman Islands entity CP_017."
+  },
+  {
+    "event_id": "EVT_002",
+    "case_id": "CASE_001",
+    "event_type": "ALERT_ASSOCIATION",
+    "actor": "SYSTEM",
+    "timestamp": "2025-02-28T13:00:00Z",
+    "details": "Alert ALRT_015 (Adverse Media Entity Match - TXN_0057, $95,000 wire to Belize CP_010) automatically linked to CASE_001. Combined pattern with ALRT_001 indicates potential multi-jurisdiction layering by confirmed PEP customer."
+  },
+  {
+    "event_id": "EVT_003",
+    "case_id": "CASE_001",
+    "event_type": "INVESTIGATION_START",
+    "actor": "analyst_sarah",
+    "timestamp": "2025-02-28T14:15:00Z",
+    "details": "Analyst Sarah commenced formal review. Transactions TXN_0047 and TXN_0057 pulled for analysis. Customer PEP status (HIT_001, HIT_002) and adverse media profile (HIT_005) reviewed. Source of funds documentation requested from customer."
+  },
+  {
+    "event_id": "EVT_004",
+    "case_id": "CASE_001",
+    "event_type": "CASE_ESCALATION",
+    "actor": "analyst_sarah",
+    "timestamp": "2025-03-01T10:45:00Z",
+    "details": "Case escalated to Level 2. Rationale: confirmed PEP (HIT_001), confirmed adverse media (HIT_002, HIT_005), two large offshore wires totalling $545,000 to Cayman Islands and Belize within 13 days, no source-of-funds documentation received within 48-hour window. Enhanced due diligence required."
+  },
+  {
+    "event_id": "EVT_004B",
+    "case_id": "CASE_001",
+    "event_type": "DOCUMENT_REQUEST",
+    "actor": "analyst_l2_davies",
+    "timestamp": "2025-03-04T09:00:00Z",
+    "details": "Level 2 analyst issued formal enhanced due diligence questionnaire to customer CUST_005. Requested: source of wealth declaration, beneficial ownership registry for Cayman entity CP_017, and explanation for $95,000 payment to Belize CP_010 (TXN_0057)."
+  },
+  {
+    "event_id": "EVT_004C",
+    "case_id": "CASE_001",
+    "event_type": "PENDING_RESPONSE",
+    "actor": "analyst_l2_davies",
+    "timestamp": "2025-03-11T09:00:00Z",
+    "details": "Customer CUST_005 has not responded to EDD questionnaire within 7-day deadline. Case remains open. Relationship Manager notified. Internal escalation memo filed."
+  },
+  {
+    "event_id": "EVT_005",
+    "case_id": "CASE_002",
+    "event_type": "CASE_CREATION",
+    "actor": "SYSTEM",
+    "timestamp": "2025-04-10T13:45:00Z",
+    "details": "Case created from scenario alert ALRT_003: Rapid In-and-Out Funds Movement. Customer CUST_010 received $200,000 (TXN_0064) and wired out $198,500 (TXN_0065) within 2 hours."
+  },
+  {
+    "event_id": "EVT_006",
+    "case_id": "CASE_002",
+    "event_type": "INVESTIGATION_START",
+    "actor": "analyst_mark",
+    "timestamp": "2025-04-11T09:30:00Z",
+    "details": "Analyst Mark initiated full transaction review. Counterparty CP_003 (Zurich Private Bank, inbound) and CP_012 (Panama Shell Corp, outbound) identified. No commercial relationship on file for either counterparty. Beneficial ownership check initiated."
+  },
+  {
+    "event_id": "EVT_006B",
+    "case_id": "CASE_002",
+    "event_type": "EVIDENCE_GATHERED",
+    "actor": "analyst_mark",
+    "timestamp": "2025-04-12T10:00:00Z",
+    "details": "Beneficial ownership search returned no verifiable beneficial owner for CP_012. Customer CUST_010 provided no commercial rationale for the Panama wire. Inbound and outbound amounts consistent with funds pass-through. SAR recommendation prepared."
+  },
+  {
+    "event_id": "EVT_007",
+    "case_id": "CASE_002",
+    "event_type": "CASE_CLOSURE",
+    "actor": "manager_helen",
+    "timestamp": "2025-04-12T16:00:00Z",
+    "details": "Case closed. Disposition: SAR_CANDIDATE. Manager Helen approved SAR filing based on layering indicators: no commercial purpose, opaque counterparties, 99.3% pass-through ratio within 2 hours. SAR reference logged with compliance officer."
+  },
+  {
+    "event_id": "EVT_008",
+    "case_id": "CASE_003",
+    "event_type": "CASE_CREATION",
+    "actor": "SYSTEM",
+    "timestamp": "2025-01-18T17:00:00Z",
+    "details": "Case created for potential structuring activity (ALRT_004). Customer CUST_007 made five sub-threshold cash deposits (TXN_0012, TXN_0013, TXN_0015, TXN_0019, TXN_0022) totalling $49,350 within 7 days."
+  },
+  {
+    "event_id": "EVT_009",
+    "case_id": "CASE_003",
+    "event_type": "CASE_CLOSURE",
+    "actor": "manager_helen",
+    "timestamp": "2025-01-20T10:30:00Z",
+    "details": "Case closed. Disposition: SAR_CANDIDATE. Customer's declared occupation (Unemployed) is inconsistent with cash volume. No source of funds explanation provided. SAR filing approved."
+  },
+  {
+    "event_id": "EVT_010",
+    "case_id": "CASE_004",
+    "event_type": "CASE_CREATION",
+    "actor": "SYSTEM",
+    "timestamp": "2025-02-22T13:20:00Z",
+    "details": "Case created from alert ALRT_006: High Turnover vs Profile. Incoming wire TXN_0054 of $42,000 for customer CUST_003 is 8x expected monthly turnover."
+  },
+  {
+    "event_id": "EVT_011",
+    "case_id": "CASE_004",
+    "event_type": "CASE_CLOSURE",
+    "actor": "analyst_mark",
+    "timestamp": "2025-02-23T09:15:00Z",
+    "details": "Case closed as CLOSED_FALSE_POSITIVE. Customer provided executed property sale settlement agreement and solicitor's confirmation letter. Source of funds verified as legitimate inheritance property proceeds."
+  },
+  {
+    "event_id": "EVT_012",
+    "case_id": "CASE_005",
+    "event_type": "CASE_CREATION",
+    "actor": "SYSTEM",
+    "timestamp": "2025-04-01T11:30:00Z",
+    "details": "Case created from alert ALRT_007: Sanctioned Entity Match. Customer CUST_018 linked to Apex Import Export Holdings Ltd, confirmed on OFAC SDN List (HIT_004, match score 1.0). GBP 15,000 wire TXN_0063 to Belize CP_001 flagged."
+  },
+  {
+    "event_id": "EVT_012B",
+    "case_id": "CASE_005",
+    "event_type": "ACCOUNT_RESTRICTION",
+    "actor": "analyst_sarah",
+    "timestamp": "2025-04-01T14:00:00Z",
+    "details": "Analyst Sarah applied immediate account restriction to ACC_018 and ACC_029 pending sanctions review. Outgoing transactions blocked. Compliance officer and legal team notified in accordance with sanctions escalation policy."
+  },
+  {
+    "event_id": "EVT_012C",
+    "case_id": "CASE_005",
+    "event_type": "CASE_ESCALATION",
+    "actor": "analyst_sarah",
+    "timestamp": "2025-04-02T09:30:00Z",
+    "details": "Case escalated to Level 2 Sanctions Compliance Desk. Escalation pack includes: OFAC SDN hit HIT_004 (match score 1.0), beneficial-ownership registry extract showing 52% controlling stake by blocked entity, and transaction history for CUST_018 covering TXN_0063, TXN_0009, TXN_0023, TXN_0034, TXN_0053."
+  },
+  {
+    "event_id": "EVT_012D",
+    "case_id": "CASE_005",
+    "event_type": "REGULATORY_REFERRAL",
+    "actor": "manager_helen",
+    "timestamp": "2025-04-07T11:00:00Z",
+    "details": "Sanctions compliance desk confirmed mandatory regulatory reporting obligation. Case referred to OFAC/FinCEN reporting team. Case remains open pending regulatory guidance on account disposition."
+  },
+  {
+    "event_id": "EVT_013",
+    "case_id": "CASE_006",
+    "event_type": "CASE_CREATION",
+    "actor": "SYSTEM",
+    "timestamp": "2025-05-12T12:15:00Z",
+    "details": "Case created from alert ALRT_017: High-Value Wire to High Risk Geo. Customer CUST_017 wired GBP 75,000 (TXN_0069) to CP_008 (Seychelles nominee). Amount exceeds expected monthly turnover of GBP 80,000 as a one-off payment."
+  },
+  {
+    "event_id": "EVT_013B",
+    "case_id": "CASE_006",
+    "event_type": "INVESTIGATION_START",
+    "actor": "analyst_mark",
+    "timestamp": "2025-05-12T15:00:00Z",
+    "details": "Analyst Mark reviewed invoice documentation submitted by CUST_017. Commercial invoice for industrial machinery parts (Batch 29), bill of lading, and customs export declaration examined against transaction TXN_0069."
+  },
+  {
+    "event_id": "EVT_014",
+    "case_id": "CASE_006",
+    "event_type": "CASE_CLOSURE",
+    "actor": "analyst_mark",
+    "timestamp": "2025-05-13T14:00:00Z",
+    "details": "Case closed as CLOSED_FALSE_POSITIVE. Commercial documentation verified as genuine by trade-finance team. Counterparty CP_008 confirmed as licensed equipment importer in Seychelles. No indicators of illicit activity detected."
+  },
+  {
+    "event_id": "EVT_100",
+    "case_id": "CASE_007",
+    "event_type": "CASE_CREATION",
+    "actor": "SYSTEM",
+    "timestamp": "2025-03-05T13:40:00Z",
+    "details": "System initiated case from alert ALRT_002: Unusual Cash Deposits for CUST_002."
+  },
+  {
+    "event_id": "EVT_150",
+    "case_id": "CASE_007",
+    "event_type": "AUTO_RESOLUTION",
+    "actor": "SYSTEM_BOT",
+    "timestamp": "2025-03-05T13:45:00Z",
+    "details": "Alert cleared by rule engine. Rule R-078 (Verified Sale of Asset): customer provided bill-of-sale documentation via secure portal. Cash deposit pattern consistent with vehicle sale proceeds."
+  },
+  {
+    "event_id": "EVT_101",
+    "case_id": "CASE_008",
+    "event_type": "CASE_CREATION",
+    "actor": "SYSTEM",
+    "timestamp": "2025-05-02T16:10:00Z",
+    "details": "System initiated case from alert ALRT_005: Reactivation of Dormant Account for CUST_015."
+  },
+  {
+    "event_id": "EVT_151",
+    "case_id": "CASE_008",
+    "event_type": "AUTO_RESOLUTION",
+    "actor": "SYSTEM_BOT",
+    "timestamp": "2025-05-02T16:15:00Z",
+    "details": "Alert cleared by rule engine. Rule R-067 (Verified Estate Distribution): probate court documentation and solicitor letter confirmed $85,000 wire as estate trust distribution. Activity matches expected dormant-account reactivation pattern."
+  },
+  {
+    "event_id": "EVT_102",
+    "case_id": "CASE_009",
+    "event_type": "CASE_CREATION",
+    "actor": "SYSTEM",
+    "timestamp": "2025-03-10T14:00:00Z",
+    "details": "System initiated case from alert ALRT_008: Frequent Card Transactions for CUST_001."
+  },
+  {
+    "event_id": "EVT_152",
+    "case_id": "CASE_009",
+    "event_type": "AUTO_RESOLUTION",
+    "actor": "SYSTEM_BOT",
+    "timestamp": "2025-03-10T14:05:00Z",
+    "details": "Alert cleared by rule engine. Rule R-112 (Retail Baseline Velocity): all card transactions fall within frequency and value bands established for CUST_001's retail segment. Case retained as closed audit record."
+  },
+  {
+    "event_id": "EVT_103",
+    "case_id": "CASE_010",
+    "event_type": "CASE_CREATION",
+    "actor": "SYSTEM",
+    "timestamp": "2025-03-10T18:00:00Z",
+    "details": "System initiated case from alert ALRT_009: Suspicious Overseas Trade Wire for CUST_016."
+  },
+  {
+    "event_id": "EVT_153",
+    "case_id": "CASE_010",
+    "event_type": "AUTO_RESOLUTION",
+    "actor": "SYSTEM_BOT",
+    "timestamp": "2025-03-10T18:05:00Z",
+    "details": "Alert cleared by rule engine. Rule R-221 (Verified Trade Counterparty Exemption): import invoice AP-2098, customs declarations, and bill of lading verified by trade-finance team. Belize counterparty CP_002 confirmed as registered supplier."
+  },
+  {
+    "event_id": "EVT_104",
+    "case_id": "CASE_011",
+    "event_type": "CASE_CREATION",
+    "actor": "SYSTEM",
+    "timestamp": "2025-05-25T16:00:00Z",
+    "details": "System initiated case from alert ALRT_010: Significant ATM Withdrawals for CUST_006."
+  },
+  {
+    "event_id": "EVT_154",
+    "case_id": "CASE_011",
+    "event_type": "AUTO_RESOLUTION",
+    "actor": "SYSTEM_BOT",
+    "timestamp": "2025-05-25T16:05:00Z",
+    "details": "Alert cleared by rule engine. Rule R-089 (Pre-notified Travel Cash Exemption): customer submitted travel notice 5 days prior to withdrawals. ATM locations consistent with declared travel destination."
+  },
+  {
+    "event_id": "EVT_105",
+    "case_id": "CASE_012",
+    "event_type": "CASE_CREATION",
+    "actor": "SYSTEM",
+    "timestamp": "2025-01-20T13:00:00Z",
+    "details": "System initiated case from alert ALRT_011: Unexplained Wire Receipt for CUST_011."
+  },
+  {
+    "event_id": "EVT_155",
+    "case_id": "CASE_012",
+    "event_type": "AUTO_RESOLUTION",
+    "actor": "SYSTEM_BOT",
+    "timestamp": "2025-01-20T13:05:00Z",
+    "details": "Alert cleared by rule engine. Rule R-045 (Verified Third-Party Gift): customer provided bank confirmation letter from originator confirming tuition assistance payment. Source of funds verified as grandparents' savings account."
+  },
+  {
+    "event_id": "EVT_106",
+    "case_id": "CASE_013",
+    "event_type": "CASE_CREATION",
+    "actor": "SYSTEM",
+    "timestamp": "2025-02-05T17:00:00Z",
+    "details": "System initiated case from alert ALRT_012: Potential Deposit Structuring for CUST_012."
+  },
+  {
+    "event_id": "EVT_156",
+    "case_id": "CASE_013",
+    "event_type": "AUTO_RESOLUTION",
+    "actor": "SYSTEM_BOT",
+    "timestamp": "2025-02-05T17:05:00Z",
+    "details": "Alert cleared by rule engine. Rule R-134 (Documented Cash-Intensive Event Exemption): event-organiser receipts and cash-intake reconciliation for hobbyist collectibles fair verified. Three deposits (TXN_0036, TXN_0037, TXN_0038) account for partial bank-ins from fair stall income of EUR 28,500."
+  },
+  {
+    "event_id": "EVT_107",
+    "case_id": "CASE_014",
+    "event_type": "CASE_CREATION",
+    "actor": "SYSTEM",
+    "timestamp": "2025-01-04T12:00:00Z",
+    "details": "System initiated case from alert ALRT_013: Volume Spike in Merchant Clearing for CUST_019."
+  },
+  {
+    "event_id": "EVT_157",
+    "case_id": "CASE_014",
+    "event_type": "AUTO_RESOLUTION",
+    "actor": "SYSTEM_BOT",
+    "timestamp": "2025-01-04T12:05:00Z",
+    "details": "Alert cleared by rule engine. Rule R-055 (Seasonal Merchant Volume Variance): settlement volume spike of 40% falls within pre-approved promotional-period parameters for merchant CUST_019. No anomalous counterparties detected."
+  },
+  {
+    "event_id": "EVT_108",
+    "case_id": "CASE_015",
+    "event_type": "CASE_CREATION",
+    "actor": "SYSTEM",
+    "timestamp": "2025-03-18T16:00:00Z",
+    "details": "System initiated case from alert ALRT_014: Dormant Account Reactivated by Cash Out for CUST_004."
+  },
+  {
+    "event_id": "EVT_158",
+    "case_id": "CASE_015",
+    "event_type": "AUTO_RESOLUTION",
+    "actor": "SYSTEM_BOT",
+    "timestamp": "2025-03-18T16:05:00Z",
+    "details": "Alert cleared by rule engine. Rule R-067 (Branch-Verified Reactivation): customer presented government-issued ID in branch for TXN_0062. Purpose confirmed as home renovation contractor payment. Branch staff completed in-person verification checklist."
+  },
+  {
+    "event_id": "EVT_109",
+    "case_id": "CASE_016",
+    "event_type": "CASE_CREATION",
+    "actor": "SYSTEM",
+    "timestamp": "2025-04-16T17:30:00Z",
+    "details": "Case created from alert ALRT_016: Round-Trip Funds Routing. Customer CUST_020 received $150,000 (TXN_0066) from Swiss entity CP_011 and wired $149,000 (TXN_0067) to Dubai supplier CP_013 within 48 hours. Pass-through ratio of 99.3% exceeds Level-1 clearance threshold."
+  },
+  {
+    "event_id": "EVT_159",
+    "case_id": "CASE_016",
+    "event_type": "CASE_ESCALATION",
+    "actor": "SYSTEM_BOT",
+    "timestamp": "2025-04-16T17:35:00Z",
+    "details": "Case automatically escalated to Level 2 per Rule R-301 (High Pass-Through Ratio): pass-through ratio of 99.3% on a transaction pair exceeding $100,000 within 48 hours requires L2 beneficial-ownership review. Trade documentation submitted but not yet independently verified."
+  },
+  {
+    "event_id": "EVT_159B",
+    "case_id": "CASE_016",
+    "event_type": "INVESTIGATION_START",
+    "actor": "analyst_l2_davies",
+    "timestamp": "2025-04-18T09:00:00Z",
+    "details": "Level 2 analyst initiated enhanced counterparty due diligence for CP_011 (Emirates Trading LLC, Switzerland) and CP_013 (Munich Machining GmbH, Dubai). Requested beneficial ownership certification and commercial contract between CUST_020 and both counterparties."
+  }
+]
